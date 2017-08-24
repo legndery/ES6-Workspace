@@ -35,3 +35,33 @@ var [f, g, ...tail] = seven
 console.log("1. without spread:",a,b,c,d,e)
 console.log("2. with spread:",f, g, tail)
 console.log()
+
+///OUTPUT=====================
+// PS D:\l3p\Project\ES6-Workspace> node .\spread.js
+// =====Spread in array declaration=====
+
+// 1. without spread: [ 'one', 'two', [ 'three', 'four' ], 'five' ]
+// 2. with spread: [ 'one', 'two', 'three', 'four', 'five' ]
+// 3. with spread 1: [ 'one', 'two', [ 'three', 'four' ], 'five' ]
+// 4. with spread 2: [ 'one', 'two', 'three', 'four', 'five' ]
+
+// =====Spread in function argument=====
+
+// =>Directly passing array
+// One: [ 1, 2, 3 ]
+// Two: undefined
+// Three: undefined
+
+// =>Using Function.apply
+// One: 1
+// Two: 2
+// Three: 3
+
+// =>Using Spread
+// One: 1
+// Two: 2
+// Three: 3
+
+// =====Spread with Destructuring=====
+// 1. without spread: 1 2 3 4 5
+// 2. with spread: 1 2 [ 3, 4, 5 ]

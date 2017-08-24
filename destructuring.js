@@ -13,3 +13,13 @@ var obj = {
 }
 var {a,b} = obj
 console.log(a,b)
+
+///OUTPUT============
+// PS D:\l3p\Project\ES6-Workspace> node .\destructuring.js
+// ====Destrucnturing in Array=====
+
+// foo bar baz
+
+// ====Destrucnturing in Object=====
+
+// Hello World

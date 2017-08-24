@@ -43,3 +43,24 @@ var n = function(){
 n();
 console.log("Out Function:"+c);
 console.log()
+
+///OUTPUT===========
+
+// PS D:\l3p\Project\ES6-Workspace> node .\variables.js
+// ====Var====
+
+// Inside Block:Hello in block
+// Outside Block:Hello in block
+// Out Function:Hello Out function
+
+// ====Let====
+
+// Inside Block:Hello in block
+// Outside Block:hello in function
+// Out Function:Hello Out function
+
+// ====Const====
+
+// Inside Block:hello in function
+// Outside Block:hello in function
+// Out Function:Hello Out function
