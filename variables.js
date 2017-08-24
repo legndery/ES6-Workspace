@@ -1,7 +1,7 @@
 //var scope
 
 //doesn't care about blocks
-console.log("--Var--")
+console.log("====Var====\n")
 var v = "Hello Out function "
 var m = function(){
     var v = "hello in function"
@@ -15,7 +15,7 @@ m();
 console.log("Out Function:"+v);
 //////////////////////////
 //let's use let
-console.log("--Let--")
+console.log("\n====Let====\n")
 let l = "Hello Out function "
 var n = function(){
     let l = "hello in function"
@@ -29,7 +29,7 @@ var n = function(){
 n();
 console.log("Out Function:"+l);
 ///const??????????
-console.log("--Const--")
+console.log("\n====Const====\n")
 const c = "Hello Out function "
 var n = function(){
     const c = "hello in function"
@@ -42,3 +42,4 @@ var n = function(){
 //c= "Changed" //error
 n();
 console.log("Out Function:"+c);
+console.log()

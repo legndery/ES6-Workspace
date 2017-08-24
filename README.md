@@ -2,3 +2,5 @@
 `destructuring.js`: Example of destructuring with Array and Object
 
 `variables.js`: Example of Let, Const and var (Const not immutable)
+
+`spread.js`: Use the spread operator
