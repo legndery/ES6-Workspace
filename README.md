@@ -9,3 +9,4 @@
 
 `template.js`: Basic Example of Template Literals
 
+`classes.js`: Very Basic Example of Classes and Inheritance
