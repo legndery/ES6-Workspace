@@ -8,3 +8,4 @@
 `arrow.js`: Basic Example of (Fat) Arrow function (Fat arrow lexically scoped .. :| )
 
 `template.js`: Basic Example of Template Literals
+
